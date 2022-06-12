@@ -58,3 +58,5 @@ tee -a /etc/ld.so.conf << "EOF"
 /root/calvin/ext/googletest/src/.libs
 /root/calvin/ext/zookeeper/.libs
 EOF
+
+ldconfig
